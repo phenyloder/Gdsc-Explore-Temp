@@ -1,11 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import EventsLayout from '../components/events/EventsLayout'
 
 export default function Home() {
   return (
-   <div>
-     <h1 className="text-center text-4xl">hello</h1>
-   </div>
+    <>
+      <div id="events-section">
+
+         <EventsLayout/>
+
+      </div>
+    </>
+   
   )
 }
