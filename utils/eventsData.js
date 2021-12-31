@@ -1,5 +1,6 @@
 import cardImg1 from "../public/images/cardImg1.png"
 import cardImg2 from "../public/images/cardImg2.png"
+import cardImg3 from "../public/images/cardImg3.png"
 
 export const  events =[
     // day 1:
@@ -25,7 +26,7 @@ export const  events =[
         {
             id:4,
             title:"Google Cloud Intro",
-            img:cardImg1,
+            img:cardImg3,
             description :"Velit 3 nulla et laboris voluptate enim eu elit fugiat magna ex. Commodo ea sit sit proident incididunt laborum duis laboris aliquip. Laboris in nulla do qui dolore ea irure aute quis."
         },
     ],
@@ -42,7 +43,7 @@ export const  events =[
         {
             id:2,
             title:"Android Study Jams",
-            img:cardImg1,
+            img:cardImg3,
             description :"Velit 2 nulla et laboris voluptate enim eu elit fugiat magna ex. Commodo ea sit sit proident incididunt laborum duis laboris aliquip. Laboris in nulla do qui dolore ea irure aute quis."
         },
         {
@@ -58,7 +59,7 @@ export const  events =[
         {
             id:1,
             title:"Switch To Backend",
-            img:cardImg1,
+            img:cardImg3,
             description :"Velit 1 nulla et laboris voluptate enim eu elit fugiat magna ex. Commodo ea sit sit proident incididunt laborum duis laboris aliquip. Laboris in nulla do qui dolore ea irure aute quis."
         },
         {
