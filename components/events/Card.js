@@ -1,5 +1,5 @@
 import Image from "next/image"
-import navigateicon from "../../public/images/navigateicon.png"
+import navigateIcon from "../../public/images/navigateIcon.png"
 import Link from "next/link"
 
 
@@ -19,7 +19,7 @@ export default function Card({event}){
                     <Link href={"/"} >
                         <a className="flex justify-start items-center text-indigo-600">
                             <p className="mr-1">Open</p>
-                            <Image src={navigateicon} className="w-8 h-8"/>
+                            <Image src={navigateIcon} className="w-8 h-8"/>
 
                         </a>
                     </Link>
