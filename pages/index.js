@@ -17,9 +17,11 @@ export default function Home() {
         <title>GDSC EXPLORE</title>
         <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
       </Head>
+
       <div id="header-section">
         <Header/>
       </div>
+      
       <div id="events-section">
         <EventsLayout/>
       </div>
