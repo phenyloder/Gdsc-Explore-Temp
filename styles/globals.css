@@ -8,3 +8,20 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
+
+details > summary {
+    list-style: none;
+}
+
+details summary::-webkit-details-marker {
+    display:none;
+}
+
+details > summary::after {
+    content: url(../public/arrows/down-arrow-svgrepo-com.svg);
+}
+
+details[open] > summary::after {
+    content: url(../public/arrows/down-arrow-svgrepo-com.svg);
+    @apply transform rotate-180;
+}

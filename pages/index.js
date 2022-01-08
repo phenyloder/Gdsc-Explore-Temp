@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header/Header'
 import EventsLayout from '../components/events/EventsLayout'
+import Faq from '../components/faq/Faq'
+import Footer from '../components/footer/Footer'
+import Sponsors from '../components/sponsors/Sponsors'
 
 export default function Home() {
   return (
@@ -14,10 +17,19 @@ export default function Home() {
         <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
       </Head>
       <div id="header-section">
-        <Header />
+        <Header/>
       </div>
       <div id="events-section">
         <EventsLayout/>
+      </div>
+      <div id="sponsors-section">
+        <Sponsors/>
+      </div>
+      <div id="faq-section">
+        <Faq/>
+      </div>
+      <div id="footer-section">
+        <Footer/>
       </div>
     </>
    
