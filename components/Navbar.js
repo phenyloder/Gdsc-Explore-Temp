@@ -11,12 +11,11 @@ export default function Navbar(){
         setToggle(!toggle);
     }
 
-
     return (
         <>
-        <div className="container">
-            <div id="navbar">
-                <nav className="flex justify-between mx-[12.5%] md:mx-[111px]">
+        <div className="container-fluid">
+            <div id="navbar" className='h-[6.8125rem] shadow-[0px_1px_1px_rgba(0,0,0,0.14),0px_2px_1px_rgba(0,0,0,0.12),0px_1px_3px_rgba(0,0,0,0.2)]'>
+                <nav className="flex justify-between bg-[#3C64B1] h-[5.5rem]   px-[12.5%] md:px-[111px]">
                     <div className="flex" >
                         <div id="lp-view" className="hidden md:block">
                             <a>
@@ -26,14 +25,11 @@ export default function Navbar(){
                             <a>Link 1</a>
                             <a>Link 1</a>
                             <a>Link 1</a>
-
                         </div>
                         <div className="md:hidden flex" id="mb-view">
                             <button className="text-black p-2" onClick={()=>{handleToggle()}}><GiHamburgerMenu/></button>
                             <a>GDSC Explore</a>
-                           
                         </div>
-                        
                     </div>
                     <div className="flex">
                         <div id="lp-view " className='hidden md:block'>
