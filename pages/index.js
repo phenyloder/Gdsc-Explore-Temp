@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Header from '../components/header/Header'
 import EventsLayout from '../components/events/EventsLayout'
 import Ourteam from '../components/our_team_section/ourteam'
-import Sponsor from '../components/sponsors/Sponsor'
 
 export default function Home() {
   return (
@@ -28,9 +27,6 @@ export default function Home() {
         <Ourteam/>
       </div>
 
-      <div id='Our-Sponsors'>
-        <Sponsor/>
-      </div>
     </>
    
   )
