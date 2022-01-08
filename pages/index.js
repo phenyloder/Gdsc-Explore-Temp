@@ -3,7 +3,9 @@ import Image from 'next/image'
 import Header from '../components/header/Header'
 import EventsLayout from '../components/events/EventsLayout'
 import Ourteam from '../components/our_team_section/ourteam'
-import Sponsor from '../components/sponsors/Sponsor'
+import Faq from '../components/faq/Faq'
+import Footer from '../components/footer/Footer'
+import Sponsors from '../components/sponsors/Sponsors'
 
 export default function Home() {
   return (
@@ -17,19 +19,23 @@ export default function Home() {
       </Head>
 
       <div id="header-section">
-        <Header />
+        <Header/>
       </div>
       
       <div id="events-section">
         <EventsLayout/>
       </div>
-
       <div id='team-secion'>
         <Ourteam/>
       </div>
-
-      <div id='Our-Sponsors'>
-        <Sponsor/>
+      <div id="sponsors-section">
+        <Sponsors/>
+      </div>
+      <div id="faq-section">
+        <Faq/>
+      </div>
+      <div id="footer-section">
+        <Footer/>
       </div>
     </>
    
